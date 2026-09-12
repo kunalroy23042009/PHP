@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+.env.*
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# PHP / XAMPP local cache
+tmp/
+cache/
+
+# Optional package folders
+vendor/
+node_modules/

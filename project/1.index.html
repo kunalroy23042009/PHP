@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to IIT Kharagpur US Trip Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600;700;800&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="2.style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <main class="form-card">
+        <h1>Welcome to IIT Kharagpur US Trip form</h1>
+        <p class="subtitle">Enter your details and submit this form to confirm your participation in the trip</p>
+
+        <div class="success-box">
+          Thanks for submitting your form. We are happy to see you joining us for the US trip
+        </div>
+
+        <form class="trip-form" method="post" action="4.index.php">
+          <input type="text" name="name" placeholder="Enter your name" aria-label="Name" required />
+          <input type="text" name="age" placeholder="Enter your Age" aria-label="Age" />
+          <input type="text" name="gender" placeholder="Enter your gender" aria-label="Gender" />
+          <input type="email" name="email" placeholder="Enter your email" aria-label="Email" required />
+          <input type="tel" name="phone" placeholder="Enter your phone" aria-label="Phone" required />
+          <textarea name="other" rows="5" placeholder="Enter any other information here" aria-label="Other information"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </main>
+
+      <div class="building-banner">Dedicated to the service of the Nation</div>
+    </div>
+
+    <script src="3.index.js"></script>
+  </body>
+</html>
